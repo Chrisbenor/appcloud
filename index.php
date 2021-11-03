@@ -1,4 +1,5 @@
 <?php
-
-echo "Welcome to services";
+$arr=array("envio" => "Chris",
+        "mensaje"=>"bienvenido");
+echo json_encode($arr);
 ?>
