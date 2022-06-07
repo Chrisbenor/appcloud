@@ -1,10 +1,10 @@
 <?php
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, POST');
 require_once __DIR__ . '/vendor/autoload.php';
+
 //Variables de entrada
-$a="1998";
+$a=$_GET['anno'];
 $b=$_GET['represa'];
+//$puntaje=$_GET['pun'];
 //--------------------------------------
 $client = new MongoDB\Client(
     'mongodb+srv://yo:abc13579@cluster0.bosd3.mongodb.net/water?retryWrites=true&w=majority');
