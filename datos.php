@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 //Variables de entrada
-$a=$_GET['anno'];
+$a="1998";
 $b=$_GET['represa'];
 //--------------------------------------
 $client = new MongoDB\Client(
