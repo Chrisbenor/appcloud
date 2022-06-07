@@ -1,5 +1,6 @@
 <?php
-
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST');
 require_once __DIR__ . '/vendor/autoload.php';
 //Variables de entrada
 $a="1998";
